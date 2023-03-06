@@ -61,7 +61,35 @@ body{
     transition: 0.4s ease;
 }
 
-.search-box button:hover{
+.AboutMe{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.AboutMe button{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    color: #06283D;
+    background: #dff6ff;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.4s ease-out;
+}
+
+.showMore button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #06283D;
+    background: #dff6ff;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.4s ease;
+}
+
+.search-box button:hover,.AboutMe button:hover{
     color: #fff;
     background: #06283D;
 }
@@ -74,6 +102,30 @@ body{
 
 .weather-box{
     text-align: center;
+}
+
+.showMore{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #dff6ff;
+    height: auto;
+}
+
+.showMore button:hover, .showMore:hover{
+    color: #fff;
+    background: #06283D;
+    transition: 0.4s ease-in;
+}
+
+.showMore p{
+    padding-top: 5%;
+    padding-left: 5px;
 }
 
 .weather-box img{
